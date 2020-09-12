@@ -14,7 +14,6 @@ buildscript {
 
 subprojects {
     group = "com.github.inkapplications.kimchi-firebase-bridge"
-    version = if (version != "unspecified") version else "1.0-SNAPSHOT"
 
     repositories {
         jcenter()
