@@ -1,1 +1,1 @@
-include(":firebase-analytics-bridge")
+include(":analytics")

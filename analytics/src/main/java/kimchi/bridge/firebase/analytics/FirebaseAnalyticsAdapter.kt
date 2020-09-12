@@ -1,4 +1,4 @@
-package kimchi.analytics.bridge.firebase
+package kimchi.bridge.firebase.analytics
 
 import com.google.firebase.analytics.FirebaseAnalytics
 import com.google.firebase.analytics.FirebaseAnalytics.Event.SCREEN_VIEW
