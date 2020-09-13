@@ -5,7 +5,7 @@
 ### Added:
 
  - Added a `crashlytics` module for sending logs and non-fatals to Firebase
-   Crashlytics.
+   Crashlytics 17.2.1.
 
 ## 1.0.0
 
