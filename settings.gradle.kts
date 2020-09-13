@@ -1,2 +1,2 @@
 include(":analytics")
-include(":no-op")
+include(":crashlytics")
