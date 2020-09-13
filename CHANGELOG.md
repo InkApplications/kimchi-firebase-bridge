@@ -1,5 +1,12 @@
 # Change Log
 
+## 1.1.0
+
+### Added:
+
+ - Added a `crashlytics` module for sending logs and non-fatals to Firebase
+   Crashlytics.
+
 ## 1.0.0
 
  - Created adapter for Firebase Analytics `17.5.0`
