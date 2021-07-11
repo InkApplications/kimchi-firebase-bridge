@@ -15,7 +15,6 @@ android {
 }
 
 dependencies {
-    implementation(kotlin("stdlib"))
-    api("com.google.firebase:firebase-crashlytics-ktx:17.2.1")
-    api("com.github.inkapplications.kimchi:logger:1.0.2")
+    api("com.google.firebase:firebase-crashlytics-ktx:18.1.0")
+    api("com.inkapplications.kimchi:logger:1.1.0")
 }

@@ -2,12 +2,12 @@ import org.gradle.api.tasks.testing.logging.TestExceptionFormat
 
 buildscript {
     repositories {
-        jcenter()
+        mavenCentral()
         google()
     }
     dependencies {
-        classpath(kotlin("gradle-plugin", version = "1.3.72"))
-        classpath("com.android.tools.build:gradle:3.6.3")
+        classpath(kotlin("gradle-plugin", version = "1.5.10"))
+        classpath("com.android.tools.build:gradle:3.6.4")
         classpath("com.github.dcendents:android-maven-gradle-plugin:2.1")
     }
 }
@@ -17,7 +17,7 @@ subprojects {
     version = if (version != "unspecified") version else "1.0-SNAPSHOT"
 
     repositories {
-        jcenter()
+        mavenCentral()
         google()
         maven(url = "https://jitpack.io")
     }
