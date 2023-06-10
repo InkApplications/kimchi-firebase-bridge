@@ -15,9 +15,8 @@ repositories {
 }
 
 tasks.create("zipPublications", Zip::class) {
+    archiveBaseName.set("publications")
+    destinationDirectory.set(File(buildDir, "distributions"))
     from("analytics/build/repo/")
-    from("analytics-logger/build/repo/")
-    from("core/build/repo/")
-    from("logger/build/repo/")
-    archiveFileName.set("publications.zip")
+    from("crashlytics/build/repo/")
 }
