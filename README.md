@@ -7,7 +7,7 @@ into [Kimchi]'s logging and analytics.
 
  - Make sure [Kimchi] is already installed
  - Make sure [Firebase is set up](https://firebase.google.com/docs/android/setup)
- - Add the maven artifact `com.github.inkapplications.kimchi-firebase-bridge:analytics:1.1.0`
+ - Add the maven artifact `com.inkapplications.kimchi-firebase-bridge:analytics:2.+`
  - If using Crashlytics, make sure the [plugin is properly installed](https://firebase.google.com/docs/crashlytics/get-started?authuser=0&platform=android)
 
 ## Usage

@@ -1,0 +1,23 @@
+[versions]
+kimchi = "2.0.3"
+kotlin = "1.7.20"
+
+[libraries.kotlin-gradle]
+version.ref = "kotlin"
+module = "org.jetbrains.kotlin:kotlin-gradle-plugin"
+
+[libraries.android-gradle]
+version = "7.3.0"
+module = "com.android.tools.build:gradle"
+
+[libraries.ink-publishing]
+version = "1.0.1"
+module = "com.inkapplications.publishing:ink-publishing"
+
+[libraries.kimchi-analytics]
+version.ref = "kimchi"
+module = "com.inkapplications.kimchi:analytics"
+
+[libraries.kimchi-logger]
+version.ref = "kimchi"
+module = "com.inkapplications.kimchi:logger"

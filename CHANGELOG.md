@@ -1,5 +1,9 @@
 # Change Log
 
+## 2.0.0
+
+ - Upgraded to support Kimchi 2.0 
+
 ## 1.1.0
 
 ### Added:
